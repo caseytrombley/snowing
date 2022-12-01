@@ -1,0 +1,9 @@
+/* body, canvas {
+    cursor: url('https://res.cloudinary.com/dvkugaw3b/image/upload/v1641562028/cursor_ad12rf.png'), auto;
+} */
+body {
+    cursor: none;
+}
+.cursor {
+    content: url(cloud.png)
+}
