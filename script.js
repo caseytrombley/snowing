@@ -43,7 +43,7 @@ const moveCursor = (e)=> {
     mouseY = e.clientY
      
     //track the custom cursor
-    cursorElement.style.transform = `translate3d(${mouseX-225}px, ${mouseY+50}px, 0)`;
+    cursorElement.style.transform = `translate3d(${mouseX-225}px, ${mouseY-200}px, 0)`;
   }
   
 window.addEventListener('mousemove', moveCursor)
