@@ -7,5 +7,6 @@ body {
     margin: 0;
 }
 .cursor {
+    position: absolute;
     content: url(cloud.png)
 }
